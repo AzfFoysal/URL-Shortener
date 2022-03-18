@@ -19,4 +19,5 @@ Route::get('/', function () {
 
 Route::get('/app', App\Http\Controllers\SpaController::class);
 
+
 Route::get('{stub}', App\Http\Controllers\GoController::class);
